@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <div id="top-bar"style="display: flex; justify-content: space-between; align-items: center;">
+      <button id="but1" onclick="scrollToSection('about-me')">About Me</button>
+      <button id="but2" onclick="scrollToSection('projects')">My Projects</button>
+      <img id="me-icon" src="Images/Me Icon.png" alt="Image" width="50px">
+      <button id="but3">Skills</button>
+      <button id="but4">Contact Me</button>
+    </div>
+    
+  </head>
+  <body>
+    
+    <div class="intro">
+      <h1 id="header">CREATING <br>EXCEPTIONAL <br>EXPERIENCES, ONE <br>PIXEL AT A TIME.</h1>
+      <a href="#about-me"></a>
+      <img src="Images/scroll-down.gif" alt="gif of scroll down" style="width:200px;height:150px;">
+    </a>
+    </div>
+    <section id="about-me">
+    <div class="about-me">
+      <center>
+      <video id="memoji" width="320" height="250" autoplay muted loop>
+        <source src="EMOJI.mp4" type="video/mp4" />
+      </center>
+      
+      <p id="paragraphabout">Hi, I am an international student from France, currently pursuing my degree at the University of California, Santa Barbara. I am a well-rounded individual with a passion for learning and expanding my skillset. I have a strong background in marketing, finance, and coding, which I have acquired through my academic studies, personal projects and diverse experiences.</p>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="my-projects">
+      <center>
+      <h2 id="projectshead">My Projects</h2>
+    </center>
+    </div>
+
+    <!-- Project 1 -->
+
+    <div id="project1" style="display: flex;">
+      <div style="flex: 1;">
+        <img id="subdue" src="Images/SubdueMarketing.png" alt="Image">
+      </div>
+      <div style="flex: 1; padding: 20px;">
+        <h2 id="headproject1">Subdue Marketing</h2>
+        <hr id="line1" align="left">
+        <p id="paraproject1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique metus euismod, sollicitudin magna eu, aliquam tellus.</p>
+        <button id="butpro1">Learn More</button>
+        <button id="butpro1">Visit Site</button>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+
+    <div id="project2" style="display: flex;">
+      
+      <div style="flex: 1; padding: 20px;">
+        <h2 id="headproject2">Math Leveling</h2>
+        <hr id="line2" align="right">
+        <p id="paraproject2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique metus euismod, sollicitudin magna eu, aliquam tellus.</p>
+        <p align="right">
+        <button id="butpro2" align="right">Learn More</button>
+        <button id="butpro2" align="right">Visit Site</button>
+      </p>
+      </div>
+      <div style="flex: 1;">
+        <img id="mathlevel" src="Images/SubdueMarketing.png" alt="Image">
+      </div>
+    </div>
+  </section>
+  
+    </div>
+  </body>
+</html>
+
